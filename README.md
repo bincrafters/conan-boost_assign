@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Assign](https://github.com/Boostorg/Assign) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Assign%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Assign%3Abincrafters).
 
 ## For Users: Use this package
 
