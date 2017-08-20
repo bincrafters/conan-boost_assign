@@ -3,6 +3,7 @@ from conans import ConanFile, tools, os
 class BoostAssignConan(ConanFile):
     name = "Boost.Assign"
     version = "1.64.0"
+    short_paths = True
     url = "https://github.com/bincrafters/conan-boost-assign"
     source_url = "https://github.com/boostorg/assign"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
@@ -22,7 +23,7 @@ class BoostAssignConan(ConanFile):
                       
     def source(self):
         for lib_short_name in self.lib_short_names:
-            self.run("git clone --depth=50 --branch=boost-{0} https://github.com/boostorg/{1}.git"
+            self.run("git clone --depth=1 --branch=boost-{0} https://github.com/boostorg/{1}.git"
                      .format(self.version, lib_short_name)) 
 
     def package(self):
