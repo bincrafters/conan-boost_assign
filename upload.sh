@@ -1,1 +1,0 @@
-conan upload --all --remote bincrafters Boost.Assign/1.64.0@bincrafters/testing
