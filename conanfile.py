@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostAssignConan(ConanFile):
     name = "boost_assign"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-assign"
+    url = "https://github.com/bincrafters/conan-boost_assign"
 
     lib_short_names = ["assign"]
     is_header_only = True
