@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostAssignConan(base.BoostBaseConan):
     name = "boost_assign"
@@ -23,5 +23,3 @@ class BoostAssignConan(base.BoostBaseConan):
         "boost_tuple",
         "boost_type_traits"
     ]
-
-
